@@ -10,7 +10,6 @@ public class BirthDateIO
 
 	public static void main(String[] args) 
 	{
-		// TODO Auto-generated method stub
 		int n = 10;
 		int month[] = new int[n];
 		int year[] = new int[n];
@@ -31,9 +30,6 @@ public class BirthDateIO
 
 		}
 		int count[] = new int[12];
-
-		// Arrays.sort(individual);
-		// Arrays.sort(month);
 		for (int i = 0; i < n; i++) 
 		{
 			System.out.println(individual[i]);
@@ -42,7 +38,6 @@ public class BirthDateIO
 
 		for (int i = 0; i < n; i++) 
 		{
-			// System.out.println(month[i]);
 			if (month[i] == 1) 
 			{
 				count[0]++;
@@ -129,7 +124,6 @@ public class BirthDateIO
 		} 
 		catch (IOException e)
 		{
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

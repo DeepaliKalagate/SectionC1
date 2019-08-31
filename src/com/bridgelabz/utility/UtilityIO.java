@@ -8,9 +8,10 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Arrays;
 
-public class UtilityIO {
-	
+public class UtilityIO
+{
 	public static void poem(String animal, String sound) throws FileNotFoundException 
 	{
 		File file=new File("/home/slot2/eclipse-workspace/SectionC1/src/com/bridgelabz/Files/poem.txt");
@@ -22,10 +23,9 @@ public class UtilityIO {
 			str = bufferedReader.readLine();
 			bufferedReader.close();
 			
-		} 
-		catch (IOException e) 
+		}
+		catch (IOException e)
 		{
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -42,13 +42,13 @@ public class UtilityIO {
 			bufferedWriter.write(replaceString2);
 			bufferedWriter.close();
 			System.out.println("Write successfully");
-		}
+		} 
 		catch (IOException e) 
 		{
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
 		
 	}
+	
 }
